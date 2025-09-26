@@ -103,6 +103,16 @@ h5 {
     font-weight: 800;
 }
 
+h4 {
+    letter-spacing: -.07vw;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.78vw;
+    font-weight: 500;
+    line-height: 3.33vw;
+}
+
 .text {
     text-transform: none;
     font-size: 13.2vw;
@@ -172,7 +182,6 @@ h5 {
 }
 
 .space {
-
     height: 10vh;
     width: 100%;
     background-color: black;
@@ -205,4 +214,50 @@ h5 {
 .logos-wrapper img {
     width: 100%;
     height: 100px;
+}
+
+.info-title{
+    font-size: 7vw;
+    line-height: 5.55vw;
+}
+
+.history-icon img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.card-header {
+    width: 100%;
+}
+
+
+
+.card {
+    border-radius: 20px;
+    background-color: #1c1c1c;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 33.3vw;
+    padding: 2.2vw;
+    transition: filter .2s ease-in-out, color .3s;
+    display: flex
+}
+
+.title-card {
+    grid-column-gap: 2.22vw;
+    grid-row-gap: 2.22vw;
+    align-items: center;
+    display: flex;
+    color: white;
+
+}
+
+.card-body {
+    color: gray;
+}
+
+.caps {
+    text-transform: uppercase;
 }
